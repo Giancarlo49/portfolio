@@ -106,7 +106,7 @@ const Work = () => {
               group-hover:bottom-14 transition-all duration-700 z-50"
               >
                 <span className="text-3xl text-white">
-                  Quiz-App simple html js css{" "}
+                  Quiz-App html js css{" "}
                 </span>
               </div>
             </div>
@@ -139,7 +139,7 @@ const Work = () => {
               group-hover:bottom-14 transition-all duration-700 z-50"
               >
                 <span className="text-3xl text-white">
-                  todo app React JS Tailwind
+                  Todo-App react js tailwind
                 </span>
               </div>
             </div>

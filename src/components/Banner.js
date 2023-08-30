@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Image from "../assets/carlo.png";
-import { FaGithub, FaTwitter, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -82,14 +82,17 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a href="https://twitter.com/luxelevare" target="_blank">
                 <FaTwitter />
               </a>
-              <a href="https://github.com/Giancarlo49">
+              <a href="https://github.com/Giancarlo49" target="_blank">
                 <FaGithub />
               </a>
-              <a href="#">
-                <FaDribbble />
+              <a
+                href="https://www.linkedin.com/in/giancarlo-scalisi-92070926b/"
+                target="_blank"
+              >
+                <FaLinkedin />
               </a>
             </motion.div>
           </div>

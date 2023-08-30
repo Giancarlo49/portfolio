@@ -40,24 +40,24 @@ const About = () => {
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">I'm a Fullstack Web Developer. </h3>
             <p className="mb-6">
-              Experience with HTML5, CSS, JavaScript, React, Bootstrap,
-              Tailwind, MongoDb and more...
+              Experience with HTML5, CSS3, SCSS, JavaScript, React JS,
+              Bootstrap, Tailwind, MongoDb, SQL
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[35px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={14} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Years of
+                  Month of
                   <br />
                   Experience
                 </div>
               </div>
               <div>
                 <div className="text-[35px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={5} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={11} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects
@@ -65,7 +65,7 @@ const About = () => {
                   Completed
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div className="text-[35px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={73} duration={4} /> : null}
                 </div>
@@ -74,7 +74,7 @@ const About = () => {
                   <br />
                   Clients
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="flex gap-x-8 items-center ml-10">
               <Link
