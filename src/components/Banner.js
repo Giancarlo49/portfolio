@@ -82,9 +82,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="https://twitter.com/luxelevare" target="_blank">
+              {/* <a href="https://twitter.com/luxelevare" target="_blank">
                 <FaTwitter />
-              </a>
+              </a> */}
               <a href="https://github.com/Giancarlo49" target="_blank">
                 <FaGithub />
               </a>
